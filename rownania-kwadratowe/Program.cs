@@ -14,5 +14,9 @@ class Program
 
         Console.Write("Podaj wartość c = ");
         double c = Convert.ToDouble(Console.ReadLine());
+
+        Pierwiastki.ObliczPierwiastki(a, b, c);
+
+        Console.ReadKey();
     }
 }
